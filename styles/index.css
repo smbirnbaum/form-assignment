@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #FBFFE4;
+    padding: auto;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    width: 472px;
+    height: 67px;
+    color: #3D8D7A;
+    padding: 40px;
+    margin: 20px;
+}
+
+form {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px; 
+    color: #C8C0C0;
+    padding: 20px;
+    margin: 40px;
+}
+
+.form__names {
+    min-width: 300px;
+    min-height: 58px;
+}
+
+.form__email {
+    min-width: 609px;
+    min-height: 58px;
+}
+
+.form__message {
+    min-width: 609px;
+    min-height: 285px;
+}
+
+.form__message::placeholder {
+    text-align: center;
+}
+
+button {
+    background-color: #3D8D7A;
+    color: #FFFFFF;
+    font-weight: bold;
+    min-width: 251px;
+    min-height: 52px;
+}
